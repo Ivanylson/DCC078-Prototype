@@ -12,7 +12,7 @@ class ClienteTest {
         Cliente clienteClone = cliente.clone();
         clienteClone.setEmail("ipsum@example.com");
         clienteClone.setNome("Lorem Ipsum");
-        clienteClone.getNps().setMetrica(8);
+        clienteClone.getMetricaDeLealdadeCliente().setMetrica(8);
 
         assertEquals( "Nome: " + "Lorem" + '\'' + "Email: " + "lorem@example.com" + '\'' + "Telefone: " + "(32) 99999-9999" + '\'' + "Data de nascimento: " + new Date(1998, 5, 13) +  '\'' + "Metrica de lealdade Cliente: " + "10", cliente.toString() );
         assertEquals( "Nome: " + "Lorem Ipsum" + '\'' + "Email: " + "ipsum@example.com" + '\'' + "Telefone: " + "(32) 99999-9999" + '\'' + "Data de nascimento: " + new Date(1998, 5, 13) +  '\'' + "Metrica de lealdade Cliente: " + "8", clienteClone.toString() );

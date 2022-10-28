@@ -22,6 +22,6 @@ public class MetricaDeLealdadeCliente implements Cloneable{
 
     @Override
     public String toString(){
-        return "Nps: " + metrica;
+        return "Metrica de lealdade Cliente: " + metrica;
     }
 }

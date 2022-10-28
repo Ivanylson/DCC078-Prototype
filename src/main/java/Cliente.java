@@ -15,11 +15,11 @@ public class Cliente implements  Cloneable{
         this.metricaDeLealdadeCliente = metricaDeLealdadeCliente;
     }
 
-    public MetricaDeLealdadeCliente getNps() {
+    public MetricaDeLealdadeCliente getMetricaDeLealdadeCliente() {
         return metricaDeLealdadeCliente;
     }
 
-    public void setNps(MetricaDeLealdadeCliente metricaDeLealdadeCliente) {
+    public void setMetricaDeLealdadeCliente(MetricaDeLealdadeCliente metricaDeLealdadeCliente) {
         this.metricaDeLealdadeCliente = metricaDeLealdadeCliente;
     }
 
